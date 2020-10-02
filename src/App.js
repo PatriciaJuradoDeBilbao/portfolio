@@ -3,12 +3,14 @@ import './App.css';
 import Home from './components/Home'
 import AboutMe from './components/AboutMe'
 import Navigation from './components/UI/Navbar'
+import ProjectsList from './components/Projects/ProjectsList/ProjectsList';
+import projects from './data/projects.json'
 
 
 class App extends Component {
-  
-  state = {
 
+  state = {
+    projects
   }
 
   render () {
@@ -18,6 +20,7 @@ class App extends Component {
         <Navigation />
           <Home />
           <AboutMe />
+          <ProjectsList projects={this.state.projects} />
         </main>
       </div>
     );
