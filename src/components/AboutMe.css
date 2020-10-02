@@ -111,14 +111,13 @@
     
     .about-title {
         font-size: 2.5em;
-        margin: 50px;
+        margin: 100px 50px 50px 50px;
     }
     
     
     .about-text {
         display: flex;
-        font-size: 1.5em;
-        margin: 0 150px;
+        font-size: 1.8em;
         margin-bottom: 25px;
         justify-content: center;
     }

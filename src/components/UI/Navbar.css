@@ -1,0 +1,27 @@
+nav {
+    background-color: rgba(253, 229, 229, 0.8);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+.icon {
+    width: 32px;
+    margin:  10px 15px;
+}
+
+.icon:hover {
+    width: 33px;
+}
