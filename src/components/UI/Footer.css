@@ -3,25 +3,53 @@
     height: 40vh;
     position: relative;
     width: 100vw;
-    padding-top: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.logo {
+.links-footer {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 1em;
+}
+
+
+.links-footer li {
+    align-items: center;
+    justify-content: space-around;
+    padding: 150px 10px 0 10px;
+    text-transform: uppercase;
+}
+
+.links-footer li a {
+    text-decoration: none;
+    color: #faf8f0;
+
+}
+
+.made-by {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    z-index: 1;
 }
 
-.logo h5 {
-    font-size: 1.3em;
+.made-by h5 {
+    font-size: 1em;
     color: #faf8f0;
+    z-index: 1;
+    
 }
 
-.logo img {
-    width: 35px;
+.made-by img {
+    width: 30px;
     margin: 10px;
+    z-index: 1;
+    
 }
 
 .custom-shape-divider-top-1600872471 {
@@ -55,14 +83,54 @@
 
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .footer {
-        padding-top: 200px;
+    .links-footer {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        font-size: 1em;
+    }
+    
+    .links-footer li {
+        align-items: center;
+        justify-content: space-around;
+        padding: 150px 10px 0 10px;
+        color: #faf8f0;
+    
+    }
+    
+    .made-by {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+    }
+    
+    .made-by h5 {
+        font-size: 1em;
+        color: #faf8f0;
+        z-index: 1;
+    }
+    
+    .made-by img {
+        width: 30px;
+        margin: 10px;
+        z-index: 1;
     }
 }
 
 /* Desktop */
 @media (min-width: 1025px) and (max-width: 2100px) {
-    .footer {
-        padding-top: 200px;
+    .links-footer {
+        font-size: 1.2em;
     }
+    
+    .links-footer li {
+        padding: 250px 30px 0 30px;
+    }
+    
+    .made-by h5 {
+        font-size: 1em;
+    }
+
 }

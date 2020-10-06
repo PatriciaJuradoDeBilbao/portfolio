@@ -2,7 +2,7 @@ import React from 'react'
 import './ProjectsList.css'
 import ProjectCard from '../ProjectCard'
 import Row from 'react-bootstrap/Row'
-
+import Fade from 'react-reveal/Fade'
 
 const ProjectsList = props => {
     const projects = props.projects.map((project, index) => {
@@ -13,7 +13,9 @@ const ProjectsList = props => {
 
     return (
         <section className="projects">
+        <Fade left duration={2000}>
             <h1 className="title">Proyectos</h1>
+        </Fade>
         <Row as="div" className="cards">
             {projects}
         </Row>

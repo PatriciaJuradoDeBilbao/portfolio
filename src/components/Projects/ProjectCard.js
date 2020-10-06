@@ -5,6 +5,7 @@ import { faCode } from '@fortawesome/free-solid-svg-icons'
 import { faLaptop } from '@fortawesome/free-solid-svg-icons'
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
+import HeadShake from 'react-reveal/HeadShake';
 
 
 const ProjectCard = props => { 
@@ -13,6 +14,7 @@ const ProjectCard = props => {
     
     return (
         <Col lg={4} md={6}>
+        <HeadShake>
             <Card className="card">
                     <Card.Title as="h1" className="project-title">{props.name}</Card.Title>
                     <Card.Text className="project-tech">{props.tech}</Card.Text>
@@ -24,6 +26,7 @@ const ProjectCard = props => {
                         </ul>
                     </div>
             </Card>
+        </HeadShake>
         </Col>
     )
 }

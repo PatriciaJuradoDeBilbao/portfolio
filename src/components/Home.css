@@ -16,7 +16,7 @@ dark: #f99e9d
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 150px;
+    justify-content: center;
 }
 
 .hero-img {
@@ -66,9 +66,7 @@ dark: #f99e9d
 
 /* Desktop */
 @media (min-width: 1025px) and (max-width: 2100px) {
-    .hero {
-        padding-top: 150px;
-    }
+
     
     .hero-img {
         width: 250px;
