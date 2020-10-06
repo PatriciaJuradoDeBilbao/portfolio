@@ -45,14 +45,15 @@
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
     .card {
-        max-height: 300px;
+        min-height: 330px;
+        min-width: 300px;
     }
 }
 
 /* Desktop */
 @media (min-width: 1025px) and (max-width: 2100px) {
     .card { 
-        
+        min-height: 300px;
         top: 0;
     }
     .card:hover {
@@ -66,6 +67,7 @@
         margin-top: 20px;
     }
 }
+
 
 
 

@@ -1,7 +1,6 @@
 .projects {
     width: 100vw;
     background-color: #fdcac9;
-    padding: 0 100px;
 }
 
 .title {
@@ -12,4 +11,21 @@
     justify-content: center;
     font-weight: 600;
     margin-bottom: 50px;
+}
+
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .projects {
+        padding: 0 20px;
+    }
+    
+}
+
+/* Desktop */
+@media (min-width: 1025px) and (max-width: 2100px) {
+    .projects {
+        padding: 0 100px;
+    }
+    
 }

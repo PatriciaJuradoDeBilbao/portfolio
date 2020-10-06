@@ -6,6 +6,7 @@ import AboutMe from './components/AboutMe'
 import Navigation from './components/UI/Navbar'
 import ProjectsList from './components/Projects/ProjectsList/ProjectsList';
 import projects from './data/projects.json'
+import Footer from './components/UI/Footer'
 
 
 class App extends Component {
@@ -17,12 +18,17 @@ class App extends Component {
   render () {
     return (
       <div className="App">
+        <header>
+          <Navigation />
+        </header>
         <main>
-        <Navigation />
           <Home />
           <AboutMe />
           <ProjectsList projects={this.state.projects} />
         </main>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     );
   }
