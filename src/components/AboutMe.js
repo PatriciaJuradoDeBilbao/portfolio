@@ -9,17 +9,18 @@ const AboutMe = () => {
     return (
         <section className="about-container">
             <Fade left duration={1500}>
-                <h3 className="about-title">Sobre mi </h3>
+                <h3 className="about-title">Sobre mi</h3>
             </Fade>
             <Slide bottom duration={2000}>
                 <article className="about">
                     <p className="about-text">Decidí aprender a programar en mi tiempo libre y de inmediato supe que me encantaba así que tome la decisión de formarme en Ironhack y darle un giro a mi vida profesional.</p>
-                    <p className="about-text">Me considero una persona empática gracias a mi experiencia de cara al público, creativa, colaborativa y siempre en búsqueda de superación.</p>
-                </article>
+                    <p className="about-text">Me considero una persona empática gracias a mi experiencia de cara al público, creativa, colaborativa y siempre en búsqueda de superación.</p>  
                     <div className="CV-container">
-                            <a className="download-button" download="CV Patricia Jurado De Bilbao" href={CV}>Descargar CV</a>
-
+                        <a className="download-button" download="CV Patricia Jurado De Bilbao" href={CV}>Descargar CV</a>
                     </div>
+                </article>
+                <article>
+                </article>
             </Slide>
                     <div className="custom-shape-divider-bottom-1600697593">
                         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
