@@ -20,13 +20,13 @@ dark: #f99e9d
 }
 
 .hero-img {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     padding: 10px;
-    border-radius: 50%;
     justify-content: center;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
+    border-radius: 50%;
 }
 
 .header-title {
@@ -51,8 +51,8 @@ dark: #f99e9d
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
     .hero-img {
-        width: 220px;
-        height: 220px;
+        width: 250px;
+        height: 250px;
     }
     
     .header-title {
@@ -67,7 +67,6 @@ dark: #f99e9d
 /* Desktop */
 @media (min-width: 1025px) and (max-width: 2100px) {
 
-    
     .hero-img {
         width: 250px;
         height: 250px;

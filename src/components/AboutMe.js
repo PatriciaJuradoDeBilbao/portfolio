@@ -13,8 +13,10 @@ const AboutMe = () => {
             </Fade>
             <Slide bottom duration={2000}>
                 <article className="about">
-                    <p className="about-text">Decidí aprender a programar en mi tiempo libre y de inmediato supe que me encantaba así que tome la decisión de formarme en Ironhack y darle un giro a mi vida profesional.</p>
-                    <p className="about-text">Me considero una persona empática gracias a mi experiencia de cara al público, creativa, colaborativa y siempre en búsqueda de superación.</p>  
+
+                    <p className="about-text">Decidí aprender a programar por mi cuenta en mi tiempo libre y luego me formé en Ironhack. </p>
+                    <p className="about-text">Me encanta ir de ruta en moto, ver series y pelis para quedarme dormida en el sofá con Link y Ganon. </p>  
+                
                     <div className="CV-container">
                         <a className="download-button" download="CV Patricia Jurado De Bilbao" href={CV}>Descargar CV</a>
                     </div>

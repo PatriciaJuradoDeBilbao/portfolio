@@ -16,15 +16,20 @@ const ProjectCard = props => {
         <Col lg={4} md={6}>
         <HeadShake>
             <Card className="card">
-                    <Card.Title as="h1" className="project-title">{props.name}</Card.Title>
-                    <Card.Text className="project-tech">{props.tech}</Card.Text>
+                <div className="card-first">
+                    <img className="bg-image" src={props.image} alt={props.name} />
+                    <h1 className="card-title">{props.name}</h1>
+                </div>
+                <div className="info">
                     <Card.Text className="project-description">{props.description}</Card.Text>
+                    <Card.Text className="project-tech">{props.tech}</Card.Text>
                     <div className="links-container">
                         <ul className="links">
                             <li><a href={props.github} title="Ver repositorio" target="blank">{code}</a></li>
                             <li><a href={props.url} title="Ver web" target="blank">{laptop}</a></li>
                         </ul>
                     </div>
+                </div>
             </Card>
         </HeadShake>
         </Col>

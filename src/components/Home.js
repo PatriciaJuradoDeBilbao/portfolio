@@ -10,7 +10,7 @@ const Home = () => {
             <div className="hero">
                 <div>
                     <Fade top duration={2000}>
-                        <img className="hero-img" src="https://res.cloudinary.com/drhetggfq/image/upload/v1600805570/ilustracion_paty.jpg" alt="Ilustración mujer"/>
+                        <img className="hero-img" src="https://res.cloudinary.com/drhetggfq/image/upload/v1602344577/let-me-choose/IMG_1976.jpg.jpg" alt="Ilustración Patricia Jurado"/>
                     </Fade>
                 </div>
                 <div className="header-text">
