@@ -5,6 +5,7 @@
     background-color: #faf8f0;
     border-radius: 5px;
     max-width: 400px;
+    transition: 0.4s ease-out
 }
 
 .card:hover {
@@ -28,8 +29,8 @@
     height: 100%;
     background: #faf8f0;
     z-index: 2;
-    -webkit-transition: 0.5s;
-            transition: 0.5s;
+    -webkit-transition: 0.4s ease-out;
+            transition: 0.4s ease-out;
     opacity: 0;
 }
 .card img {
@@ -40,8 +41,7 @@
     position: absolute;
     top: 20px;
     left: 0px;
-    margin: auto;
-    padding: 50px;
+    padding: 25px;
 }
 .card .info {
     position: relative;
@@ -53,10 +53,13 @@
 .card-title {
     display: flex;
     justify-content: center;
-    font-size: 1.8em;
+    font-size: 2em;
     font-weight: 600;
     letter-spacing: 1px;
+    margin-top: 25px;
 }
+
+
 
 .project-tech {
     font-size:  1em;

@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Cat Invaders",
-        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1602614173/arcada_hgyxoo.png",
+        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1602789735/Captura_de_pantalla_de_2020-10-13_23-02-19_mpvcxf.png",
         "description": "Videojuego inspirado en Space Invaders, en donde debes eliminar a los gatitos con lo que más odian, el agua.",
         "github": "https://github.com/PatriciaJuradoDeBilbao/cat-invaders",
         "url": "https://patriciajuradodebilbao.github.io/cat-invaders/",
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "Records Never Die",
-        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1602614173/vinilo_nfmft7.png",
+        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1602789737/Captura_de_pantalla_de_2020-10-13_23-04-22_fa5vq3.png",
         "description": "Full-stack app para comprar y vender vinilos, además de conocer las tiendas físicas en Madrid.",
         "github": "https://github.com/RecordsNeverDie/RecordsNeverDie",
         "url": "https://recordsneverdie.herokuapp.com/",
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "name": "Let me choose",
-        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1602614173/cubiertos_sitkir.png",
+        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1602789736/Captura_de_pantalla_de_2020-10-13_23-05-59_wor0wo.png",
         "description": "Es una full-stack SPA que elige un restaurante aleatorio según filtros de comida y rango de precio que selecciones.",
         "github": "https://github.com/PatriciaJuradoDeBilbao/let-me-choose",
         "url": "http://letmechoose.herokuapp.com/",
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "name": "My Weather App",
-        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1602614173/clima_yfequc.png",
+        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1602789975/Captura_de_pantalla_de_2020-10-15_21-25-51_pnlh6m.png",
         "description": "App del clima con fondo dinámico dependiendo de la temperatura del la ciudad que se busque.",
         "github": "https://github.com/PatriciaJuradoDeBilbao/my-weather-app",
         "url": "https://patriciajuradodebilbao.github.io/my-weather-app/index.html",
@@ -38,7 +38,7 @@
     {
         "id": 5,
         "name": "Burger Builder",
-        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1602614173/para-llevar_fbulpx.png",
+        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1602789735/Captura_de_pantalla_de_2020-10-13_23-13-54_pq8ges.png",
         "description": "Proyecto desarrollado en el curso de Udemy (React - The Complete Guide (incl Hooks, React Router, Redux)).",
         "github": "https://github.com/PatriciaJuradoDeBilbao/burger-build",
         "url": "https://burger-builder-react-7820.web.app/",
@@ -47,7 +47,7 @@
     {
         "id": 6,
         "name": "Portfolio",
-        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1602627367/sandia_jwx4hr.png",
+        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1602790160/Captura_de_pantalla_de_2020-10-15_21-29-01_mfsizl.png",
         "description": "Portfolio personal en donde añado los proyectos desarrollados durante mi formación y aprendizaje continuo.",
         "github": "",
         "tech": "Javascript |  HTML |  CSS |  React"
