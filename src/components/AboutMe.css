@@ -100,11 +100,10 @@
 
   .rotating-text {
     font-size: 20px;
-    font-weight: 500;
   }
 
   .inner {
-    font-weight: 300;
+    font-weight: 500;
     position: absolute;
     height: 25px;
     line-height: 25px;

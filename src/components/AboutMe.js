@@ -17,8 +17,8 @@ const AboutMe = () => {
             <Slide bottom duration={2000}>
                 <article className="about">
 
-                    <p className="about-text">En mi tiempo libre me propuse aprender a programar y me gustó tanto que decidí de formarme en <b>Ironhack</b>. </p>
-                    <p className="about-text">Venezolana viviendo en Madrid hace 3 años. Buscando mi primera experiencia como programadora.</p>  
+                    <p className="about-text">Venezolana viviendo en Madrid hace 3 años.</p>
+                    <p className="about-text">En mi tiempo libre me propuse aprender a programar y me gustó tanto que decidí de formarme en <b>Ironhack</b> y ahora estoy en búsqueda de mi primera experiencia como programadora.</p>  
                     <div className="outer">
                         <h1 className="rotating-text">{heart} &nbsp;
                             <div className="inner">
