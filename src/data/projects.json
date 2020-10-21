@@ -28,7 +28,7 @@
     },
     {
         "id": 4,
-        "name": "My Weather App",
+        "name": "Weather App",
         "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1602789975/Captura_de_pantalla_de_2020-10-15_21-25-51_pnlh6m.png",
         "description": "App del clima con fondo dinámico dependiendo de la temperatura del la ciudad que se busque.",
         "github": "https://github.com/PatriciaJuradoDeBilbao/my-weather-app",

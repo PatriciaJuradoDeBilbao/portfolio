@@ -15,8 +15,8 @@ const Footer = () => {
             </ul>
         </div>
         <div className="made-by">
+            <h5> &copy; 2020</h5>
             <img src={Logo} alt="Patylla logo"/>
-        <h5> &copy; 2020</h5>
         </div>
         
         <div className="custom-shape-divider-top-1600872471">
