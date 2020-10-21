@@ -14,7 +14,7 @@ const AboutMe = () => {
             <Fade left duration={1500}>
                 <h3 className="about-title">Sobre mi</h3>
             </Fade>
-            <Slide bottom duration={2000}>
+            <Slide left duration={2000}>
                 <article className="about">
 
                     <p className="about-text">Venezolana viviendo en Madrid hace 3 años.</p>

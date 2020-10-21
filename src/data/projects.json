@@ -6,25 +6,25 @@
         "description": "Videojuego inspirado en Space Invaders, en donde debes eliminar a los gatitos con lo que más odian, el agua.",
         "github": "https://github.com/PatriciaJuradoDeBilbao/cat-invaders",
         "url": "https://patriciajuradodebilbao.github.io/cat-invaders/",
-        "tech": "Javascript | Canvas |  HTML | CSS"
+        "tech": "HTML | CSS | Javascript | Canvas"
     },
     {
         "id": 2,
         "name": "Records Never Die",
         "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1602789737/Captura_de_pantalla_de_2020-10-13_23-04-22_fa5vq3.png",
-        "description": "Full-stack app para comprar y vender vinilos, además de conocer las tiendas físicas en Madrid.",
+        "description": "Fullstack app para comprar y vender vinilos, además de conocer las tiendas físicas en Madrid.",
         "github": "https://github.com/RecordsNeverDie/RecordsNeverDie",
         "url": "https://recordsneverdie.herokuapp.com/",
-        "tech": "Javascript | HTML | SAAS | Bootstrap | MongoDB | NodeJS | ExpressJS | API Rest"
+        "tech": "HTML | SAAS | Bootstrap | Javascript | NodeJS | ExpressJS | MongoDB"
     },
     {
         "id": 3,
         "name": "Let me choose",
         "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1602789736/Captura_de_pantalla_de_2020-10-13_23-05-59_wor0wo.png",
-        "description": "Es una full-stack SPA que elige un restaurante aleatorio según filtros de comida y rango de precio que selecciones.",
+        "description": "Fullstack SPA que elige un restaurante aleatorio según filtros de comida y rango de precio que selecciones.",
         "github": "https://github.com/PatriciaJuradoDeBilbao/let-me-choose",
         "url": "http://letmechoose.herokuapp.com/",
-        "tech": "Javascript | HTML | CSS | Bootstrap | MongoDB | ExpressJS | React | NodeJS  | API Rest"
+        "tech": "HTML | CSS | Bootstrap | React | NodeJS | ExpressJS | MongoDB | Heroku"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "description": "App del clima con fondo dinámico dependiendo de la temperatura del la ciudad que se busque.",
         "github": "https://github.com/PatriciaJuradoDeBilbao/my-weather-app",
         "url": "https://patriciajuradodebilbao.github.io/my-weather-app/index.html",
-        "tech": "Javascript |  HTML |  CSS |  API Rest |  React"
+        "tech": "HTML |  CSS | React | Heroku"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "description": "Proyecto desarrollado en el curso de Udemy (React - The Complete Guide (incl Hooks, React Router, Redux)).",
         "github": "https://github.com/PatriciaJuradoDeBilbao/burger-build",
         "url": "https://burger-builder-react-7820.web.app/",
-        "tech": "Javascript |  React |  Hooks |  Redux |  Firebase"
+        "tech": "React |  Hooks |  Redux |  Firebase"
     },
     {
         "id": 6,
@@ -50,6 +50,6 @@
         "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1602790160/Captura_de_pantalla_de_2020-10-15_21-29-01_mfsizl.png",
         "description": "Portfolio personal en donde añado los proyectos desarrollados durante mi formación y aprendizaje continuo.",
         "github": "",
-        "tech": "Javascript |  HTML |  CSS |  React"
+        "tech": "HTML |  CSS |  React | Netlify"
     }
 ]

@@ -3,6 +3,8 @@ import './ProjectsList.css'
 import ProjectCard from '../ProjectCard'
 import Row from 'react-bootstrap/Row'
 import Fade from 'react-reveal/Fade'
+import Container from 'react-bootstrap/Container'
+
 
 const ProjectsList = props => {
     const projects = props.projects.map((project, index) => {
@@ -19,7 +21,7 @@ const ProjectsList = props => {
         <Row as="div" className="cards">
             {projects}
         </Row>
-        </section>
+        </section>  
     )
 }
 

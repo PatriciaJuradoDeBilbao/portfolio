@@ -175,7 +175,7 @@
 /* Desktop */
 @media (min-width: 1025px) and (max-width: 2100px) {
     .about {
-        padding: 0 100px 100px 100px;
+        padding: 0 80px 100px 100px;
     }
     
     .about-title {
@@ -189,7 +189,6 @@
         margin: 0 200px;
     }
 
-
     .download-button {
         font-size: 1.5em;
         margin-top: 40px;
@@ -199,7 +198,7 @@
         margin-left: 200px;
       }
 
-      .inner {
-        font-size: 1.45em;
-      }
+    .inner {
+      font-size: 1.45em;
+    }
 }
