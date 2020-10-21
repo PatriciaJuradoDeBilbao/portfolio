@@ -99,7 +99,7 @@
   }
 
   .rotating-text {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .inner {
@@ -107,7 +107,7 @@
     position: absolute;
     height: 25px;
     line-height: 25px;
-    font-size: 20px;
+    font-size: 18px;
     overflow: hidden;
     display: inline-block;
   }
@@ -133,13 +133,13 @@
       top:-50px;
     }
     70%{
-      top:-75px;
+      top:-80px;
     }
     75%{
-      top:-75px;
+      top:-80px;
     }
     95%{
-      top:-75px;
+      top:-80px;
     }
   }
   
@@ -168,7 +168,34 @@
     }
 
     .inner {
-        font-size: 1.1em;
+        font-size: 1em;
+    }
+
+    @keyframes animate{
+      0%,100%{
+        top:0;
+      }
+      20%{
+        top:0px;
+      }  
+      25%{
+        top:-25px;
+      }
+      45%{
+        top:-25px;
+      }
+      50%{
+        top:-50px;
+      }
+      70%{
+        top:-85px;
+      }
+      75%{
+        top:-85px;
+      }
+      95%{
+        top:-85px;
+      }
     }
 }
 
@@ -201,4 +228,5 @@
     .inner {
       font-size: 1.45em;
     }
+
 }
