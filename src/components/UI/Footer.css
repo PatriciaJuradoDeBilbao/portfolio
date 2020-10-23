@@ -2,7 +2,6 @@
     background-color: #f99e9d;
     height: 35vh;
     position: relative;
-    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,7 +76,7 @@
 /** Mobile **/
 @media (max-width: 767px) {
     .custom-shape-divider-top-1600872471 svg {
-        width: calc(100%);
+        width: calc(276%);
         height: 75px;
     }
 }
