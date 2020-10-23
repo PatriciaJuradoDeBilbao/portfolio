@@ -1,5 +1,5 @@
 .projects {
-    width: 100vw;
+
     background-color: #fdcac9;
 }
 
@@ -13,18 +13,20 @@
     margin-bottom: 50px;
 }
 
+.row {
+   margin: 0 0px;
+}
+
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .projects {
-        padding: 0 20px;
-    }
+
     
 }
 
 /* Desktop */
 @media (min-width: 1025px) and (max-width: 2100px) {
     .projects {
-        padding: 0 100px;
+        padding: 0 200px;
     }
     .title {
         font-size: 2.5em;

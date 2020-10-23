@@ -3,7 +3,7 @@ import './ProjectsList.css'
 import ProjectCard from '../ProjectCard'
 import Row from 'react-bootstrap/Row'
 import Fade from 'react-reveal/Fade'
-import Container from 'react-bootstrap/Container'
+
 
 
 const ProjectsList = props => {
@@ -15,13 +15,13 @@ const ProjectsList = props => {
 
     return (
         <section className="projects">
-        <Fade left duration={2000}>
-            <h1 className="title">Proyectos</h1>
-        </Fade>
-        <Row as="div" className="cards">
-            {projects}
-        </Row>
-        </section>  
+            <Fade left duration={1500}>
+                <h1 className="title">Proyectos</h1>
+            </Fade>
+            <Row className="cards row">
+                {projects}
+            </Row>
+        </section>
     )
 }
 

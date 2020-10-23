@@ -8,7 +8,7 @@
 }
 
 .about {
-    padding: 0 30px 30px 30px;
+    padding: 0 20px 20px 20px;
 }
 
 .about-title {
@@ -29,7 +29,7 @@
 }
 
 .about-text {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 300;
     line-break: strict;
     margin: 0 25px 20px 25px;
@@ -37,9 +37,9 @@
 }
 
 .download-button {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 600;
-    padding: 15px 20px;
+    padding: 10px 15px;
     justify-content: center;
     background-color: #faf8f0;
     border-radius: 5px;
@@ -56,7 +56,6 @@
     background-color:#f99e9d;
     text-decoration: none;
     color: #353334;
-
 }
 
 .CV-container {
@@ -82,7 +81,7 @@
 .custom-shape-divider-bottom-1600697593 svg {
     position: relative;
     display: block;
-    width: calc(100% + 1.3px);
+    width: calc(100%);
     height: 150px;
 }
 
@@ -116,6 +115,7 @@
     animation: animate 10s ease infinite;
     position: relative;
   }
+  
   @keyframes animate{
     0%,100%{
       top:0;
@@ -146,7 +146,7 @@
 /** For mobile devices **/
 @media (max-width: 767px) {
     .custom-shape-divider-bottom-1600697593 svg {
-        width: calc(240% + 1.3px);
+        width: calc(240%);
         height: 212px;
     }
 }
@@ -219,14 +219,14 @@
     .download-button {
         font-size: 1.5em;
         margin-top: 40px;
-
     }
+
     .outer {
-        margin-left: 200px;
+      margin-left: 200px;
       }
 
     .inner {
       font-size: 1.45em;
-    }
-
+      padding-bottom: 10px;
+    } 
 }
