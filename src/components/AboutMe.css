@@ -97,7 +97,7 @@
   }
 
   .rotating-text {
-    font-size: 18px;
+    font-size: 1em;
   }
 
   .inner {
@@ -105,7 +105,7 @@
     position: absolute;
     height: 25px;
     line-height: 25px;
-    font-size: 18px;
+    font-size: 1.2em;
     overflow: hidden;
     display: inline-block;
   }
@@ -132,7 +132,7 @@
       top:-50px;
     }
     70%{
-      top:-80px;
+      top:-50px;
     }
     75%{
       top:-80px;
@@ -162,12 +162,17 @@
         margin-top: 40px;
     }
 
+    .rotating-text {
+      font-size: 1.2em;
+    }
     .outer {
         margin-left: 50px;
     }
 
     .inner {
-        font-size: 1em;
+      height: 30px;
+      line-height: 30px;
+      font-size: 1.2em;
     }
 
     @keyframes animate{
@@ -178,22 +183,22 @@
         top:0px;
       }  
       25%{
-        top:-25px;
+        top:-30px;
       }
       45%{
-        top:-25px;
+        top:-30px;
       }
       50%{
-        top:-50px;
+        top:-60px;
       }
       70%{
-        top:-85px;
+        top:-60px;
       }
       75%{
-        top:-85px;
+        top:-95px;
       }
       95%{
-        top:-85px;
+        top:-95px;
       }
     }
 }
@@ -220,12 +225,44 @@
         margin-top: 40px;
     }
 
+    .rotating-text {
+      font-size: 1.3em;
+    }
+
     .outer {
       margin-left: 200px;
-      }
+  }
 
-    .inner {
-      font-size: 1.45em;
-      padding-bottom: 10px;
-    } 
+  .inner {
+    height: 35px;
+    line-height: 35px;
+    font-size: 1.2em;
+  }
+
+  @keyframes animate{
+    0%,100%{
+      top:0;
+    }
+    20%{
+      top:0px;
+    }  
+    25%{
+      top:-35px;
+    }
+    45%{
+      top:-35px;
+    }
+    50%{
+      top:-70px;
+    }
+    70%{
+      top:-70px;
+    }
+    75%{
+      top:-105px;
+    }
+    95%{
+      top:-105px;
+    }
+  }
 }
