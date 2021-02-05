@@ -8,9 +8,10 @@ import Col from 'react-bootstrap/Col'
 
 
 const ProjectCard = props => { 
+
     const code = <FontAwesomeIcon icon={faCode} color="#353334" size="lg" />
     const laptop = <FontAwesomeIcon icon={faLaptop} color="#353334" size="lg" />
-    
+
     return (
         <Col md={6}>
             <Card className="card">
@@ -21,7 +22,7 @@ const ProjectCard = props => {
                     <h1 className="card-title">{props.name}</h1>
                     <p className="project-tech">{props.tech}</p>
                     <div className="card-content">
-                        <p className="project-description card-text">{props.description}</p>
+                        <p className="project-description card-text">{props.description.es}</p>
                         <div className="links-container">
                             <ul className="links">
                                 <li><a href={props.github} title="Ver repositorio" target="blank">{code}</a></li>

@@ -7,9 +7,10 @@ import Fade from 'react-reveal/Fade'
 
 
 const ProjectsList = props => {
+
     const projects = props.projects.map((project, index) => {
         return (
-            <ProjectCard key={index} id={project.id} name={project.name} description={project.description} image={project.image} github={project.github} url={project.url} tech={project.tech}/>   
+            <ProjectCard key={index} id={project.id} name={project.name} description={project.description.es} image={project.image} github={project.github} url={project.url} tech={project.tech}/>   
     )
 })
 

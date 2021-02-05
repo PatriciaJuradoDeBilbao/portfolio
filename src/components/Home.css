@@ -67,8 +67,8 @@ dark: #f99e9d
 @media (min-width: 1025px) and (max-width: 2100px) {
 
     .hero-img {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
     }
 
     .header-title {

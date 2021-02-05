@@ -1,6 +1,6 @@
 import React from 'react'
 import './AboutMe.css'
-import CV from '../files/CV - Patricia Jurado De Bilbao_EN.pdf'
+import CV from '../files/CV - Patricia Jurado De Bilbao.pdf'
 import Slide from 'react-reveal/Slide';
 import Fade from 'react-reveal/Fade'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import Fade from 'react-reveal/Fade'
-
+import Ilustration from '../assets/ilustracion_web.png'
 
 const Home = () => {
     return (
@@ -10,7 +10,7 @@ const Home = () => {
             <div className="hero">
                 <div>
                     <Fade top duration={2000}>
-                        <img className="hero-img" src="https://res.cloudinary.com/drhetggfq/image/upload/v1602344577/let-me-choose/IMG_1976.jpg.jpg" alt="Ilustración Patricia Jurado"/>
+                        <img className="hero-img" src={Ilustration}/>
                     </Fade>
                 </div>
                 <div className="header-text">
