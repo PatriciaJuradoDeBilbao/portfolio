@@ -11,7 +11,7 @@ const ProjectCard = props => {
 
     const code = <FontAwesomeIcon icon={faCode} color="#353334" size="lg" />
     const laptop = <FontAwesomeIcon icon={faLaptop} color="#353334" size="lg" />
-
+    
     return (
         <Col md={6}>
             <Card className="card">

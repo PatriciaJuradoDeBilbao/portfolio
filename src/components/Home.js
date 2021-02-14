@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import Fade from 'react-reveal/Fade'
-import Ilustration from '../assets/ilustracion_web.png'
+import Logo from '../assets/logo_patylla.png'
 
 const Home = () => {
     return (
@@ -10,7 +10,7 @@ const Home = () => {
             <div className="hero">
                 <div>
                     <Fade top duration={2000}>
-                        <img className="hero-img" src={Ilustration}/>
+                        <img className="hero-img" src={Logo} alt="Logo"/>
                     </Fade>
                 </div>
                 <div className="header-text">
