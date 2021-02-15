@@ -47,9 +47,9 @@
 }
 
 .download-button {
-  font-size: 1em;
+  font-size: .9em;
   font-weight: 600;
-  padding: 20px 35px;
+  padding: 10px 18px;
   justify-content: center;
   background-color: #faf8f0;
   border-radius: 5px;
@@ -70,7 +70,6 @@
 .CV-container {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .custom-shape-divider-bottom-1600697593 {
@@ -198,13 +197,12 @@
 
   .download-button {
     font-size: 1.1em;
-    padding: 20px 35px;
+    padding: 15px 23px;
     margin-top: 40px;
   }
 
   .CV-container {
     display: flex;
-
   }
 
   .rotating-text {
@@ -282,9 +280,12 @@
     width: 430px;
     margin-left: 300px;
   }
+
   .CV-container {
     width: 65%;
+  
   }
+
   .about-text {
     font-size: 1.4em;
     padding-bottom: 30px;
@@ -292,7 +293,9 @@
   }
 
   .download-button {
-    font-size: 1.3em;
+    font-size: 1.2em;
+    padding: 15px 23px;
+
     margin-top: 40px;
   }
 
