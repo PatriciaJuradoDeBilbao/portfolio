@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Cat Invaders",
-        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1603474062/cat-invaders_i5f4mb.png",
+        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1613419281/gato_ja6t47.png",
         "description": {
             "es": "Videojuego inspirado en Space Invaders, en donde debes eliminar a los gatitos con lo que más odian, el agua.",
             "en": "Videogame inspired in Space Invaders"
@@ -14,7 +14,7 @@
     {
         "id": 2,
         "name": "Records Never Die",
-        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1603474062/records-never-die_mspmjw.png",
+        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1613419282/disco-de-vinilo_svecmx.png",
         "description": {
             "es": "Fullstack app para comprar y vender vinilos, además de conocer las tiendas físicas en Madrid.",
             "en": "Web app for buying and selling vinyls in Madrid"
@@ -26,7 +26,7 @@
     {
         "id": 3,
         "name": "Let me choose",
-        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1603474062/let-me-choose_zangni.png",
+        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1613419281/restaurante_w4z1c4.png",
         "description": {
             "es": "Fullstack SPA que elige un restaurante aleatorio según filtros de comida y rango de precio que selecciones.",
             "en": "Fullstack SPA made for choosing a random restaurant when you don't know where or what to eat in Madrid."
@@ -38,7 +38,7 @@
     {
         "id": 4,
         "name": "Weather App",
-        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1603474062/weather-app_relyzf.png",
+        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1613419282/dom_nxh7zm.png",
         "description": {
             "es": "App del clima con fondo dinámico dependiendo de la temperatura del la ciudad que se busque.",
             "en": "Weather app with dynamic background depending on the temperature of the city you are looking for."
@@ -50,7 +50,7 @@
     {
         "id": 5,
         "name": "Burger Builder",
-        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1603474061/burger-builder_x2lhtz.png",
+        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1613419281/hamburgo_kmgsvc.png",
         "description": {
             "es": "Proyecto desarrollado en el curso de Udemy (React - The Complete Guide (incl Hooks, React Router, Redux)).",
             "en": "Project developed in the course of Udemy (React - The Complete Guide (incl Hooks, React Router, Redux))"
@@ -62,7 +62,7 @@
     {
         "id": 6,
         "name": "Portfolio",
-        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1603474061/portfolio_zvured.png",
+        "image": "https://res.cloudinary.com/drhetggfq/image/upload/v1613419281/ordenador-portatil_1_cotq6b.png",
         "description": {
             "es": "Portfolio personal en donde añado los proyectos desarrollados durante mi formación y aprendizaje continuo.",
             "en": "Personal portfolio with project during my formation and continuous learning."

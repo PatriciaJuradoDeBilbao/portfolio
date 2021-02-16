@@ -5,11 +5,12 @@
 .title {
     width: 100%;
     display: flex;
-    font-size: 2em;
+    font-size: 2.5em;
     text-transform: uppercase;
     justify-content: center;
     font-weight: 600;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
 }
 
 .row {
@@ -19,7 +20,10 @@
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    
+    .row {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 /* Desktop */
@@ -28,6 +32,6 @@
         padding: 0 200px;
     }
     .title {
-        font-size: 2.5em;
+        font-size: 3.6em;
     }
 }
